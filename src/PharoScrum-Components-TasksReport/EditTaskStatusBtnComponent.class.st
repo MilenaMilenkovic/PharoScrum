@@ -83,6 +83,7 @@ EditTaskStatusBtnComponent >> reassignment [
 { #category : #rendering }
 EditTaskStatusBtnComponent >> renderBtnOn: html [
 	html tbsSubmitButton  
+		class: 'btn-default';
 		beDisabledIf: [ self enabled not ];
 		callback: [ self edit: self status ];
 		with: self label

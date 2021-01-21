@@ -41,6 +41,7 @@ PSFileLibrary >> tasksCss [
 
 .new-task {
 	margin: 10px 10%;
+	min-height: 400px;
 }
 
 .new-task + button{
