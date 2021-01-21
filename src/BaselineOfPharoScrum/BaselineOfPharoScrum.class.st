@@ -70,7 +70,7 @@ BaselineOfPharoScrum >> voyage: spec [
 		baseline: 'Voyage'
 		with: [ 
 			spec 
-				loads: #(core);
+				loads: #(core memory);
 				repository: 'github://pharo-nosql/voyage/mc' ]
 
 ]
