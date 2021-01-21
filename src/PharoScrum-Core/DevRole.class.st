@@ -6,9 +6,6 @@ Class {
 	#superclass : #Role,
 	#traits : 'TRoleSingleton',
 	#classTraits : 'TRoleSingleton classTrait',
-	#classInstVars : [
-		'uniqueInstance'
-	],
 	#category : #'PharoScrum-Core-PharoScrum-Core'
 }
 

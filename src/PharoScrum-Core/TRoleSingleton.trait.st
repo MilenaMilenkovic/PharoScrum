@@ -3,9 +3,6 @@ Trait used by DevRole, QARole and a ScrumMasterRole.
 "
 Trait {
 	#name : #TRoleSingleton,
-	#instVars : [
-		'uniqueInstance'
-	],
 	#classInstVars : [
 		'uniqueInstance'
 	],

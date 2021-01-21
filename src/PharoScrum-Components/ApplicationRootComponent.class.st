@@ -35,6 +35,9 @@ ApplicationRootComponent class >> initialize [
 		
 	"Libraries used by the app are included here"
 	self includeLibraries: app.
+	
+	"Initialize database, for now this is just a prototype app"
+	VOMemoryRepository new enableSingleton.
 ]
 
 { #category : #hooks }
